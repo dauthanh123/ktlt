@@ -1,15 +1,9 @@
 print("Sinh vien:Đậu Đức Thành")
 print("Mssv:235752021610004")
 import math;
-x1 = int(input("Enter x1 ---> "))
-y1 = int(input("Enter y1 ---> "))
-
-x2 = int(input("Enter x2 ---> "))
-y2 = int(input("Enter y2 ---> "))
-
-d1 = (x2 - x1) * (x2 - x1);
-d2 = (y2 - y1) * (y2 - y1);
-
-res = math.sqrt(d1 + d2)
-
-print("Distance between two points:", res);
+n1 = int(input("Enter n1 value: "))
+n2 = int(input("Enter n2 value: "))
+if n1>n2:
+    print("n1 is big ")
+else:
+    print("n2 is big")
